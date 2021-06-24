@@ -1,0 +1,15 @@
+.home{
+    width: 500px;
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   align-items: center;
+ }
+
+ @media only screen and (max-width: 648px) {
+    .home{
+        width: 500px;
+        display: grid;
+       grid-template-columns: repeat(1, 1fr);
+      align-items: center;
+  }
+}

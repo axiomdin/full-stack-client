@@ -1,0 +1,13 @@
+.Order{
+    
+    display: flex;
+        
+}
+.Order h1 {
+    padding: 100px;
+    border-bottom: 1px solid black;
+}
+.total{
+    text-align: right;
+    margin-right: 200px;
+}
